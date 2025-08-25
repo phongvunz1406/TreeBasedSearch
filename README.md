@@ -1,35 +1,44 @@
-Tree-Based Search Visualization
+# Tree-Based Search Visualization
 
-This project implements and visualizes classic tree-based search algorithms using Pygame. It provides an interactive way to explore how different search strategies traverse a map and find a path to the goal.
+Pygame visualization of classic AI search algorithms (DFS, BFS, GBFS, A*) on grid maps.
 
-Implemented Algorithms
+## 📌 Overview
+This project demonstrates how different **tree-based search algorithms** explore a map and find paths from a start node to a goal node.  
+The program uses **Pygame** for visualization, making the search process easier to understand.
 
-Depth-First Search (DFS)
+## 🔍 Implemented Algorithms
+- **Depth-First Search (DFS)**
+- **Breadth-First Search (BFS)**
+- **Greedy Best-First Search (GBFS)**
+- **A*** (A-Star Search)
 
-Breadth-First Search (BFS)
+## 🎮 Features
+- Interactive visualization built with **Pygame**
+- Real-time exploration of nodes during the search process
+- Highlights visited nodes and the final path
+- Modular code structure:
+  - `map.py` → grid/map handling
+  - `search.py` → search algorithms (DFS, BFS, GBFS, A*)
+  - `main.py` → visualization with Pygame
 
-Greedy Best-First Search (GBFS)
+## 🚀 How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/tree-search-visualization.git
+   cd tree-search-visualization
+   ```
+2. Install dependencies:
+   ```bash
+   pip install pygame
+   ```
+3. Run the program:
+   ```bash
+   python main.py
+   ```
 
-A* (A-Star Search)
+## 📷 Example (Visualization)
+*(Insert a screenshot or GIF of your program running here for better presentation!)*
 
-Features
-
-Pygame-based visualization for real-time pathfinding.
-
-Step-by-step display of visited nodes and the final path.
-
-Modular design: search algorithms, map handling, and visualization are separated.
-
-Easily extendable to add new search strategies.
-
-How It Works
-
-Select a map and an algorithm in the program.
-
-The system loads the map and executes the chosen algorithm.
-
-Pygame visualization highlights the exploration process and final path.
-
-Purpose
-
-This project was developed as part of an AI search algorithms exercise, focusing on both uninformed and informed search methods. The visualization helps compare the efficiency and behavior of different algorithms in solving pathfinding problems.
+## 🎯 Purpose
+This project was developed as part of an **Artificial Intelligence exercise** to compare the performance of **uninformed** (DFS, BFS) and **informed** (GBFS, A*) search algorithms.  
+The Pygame-based visualization helps learners observe how each algorithm explores the search space.
