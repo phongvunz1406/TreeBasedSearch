@@ -36,7 +36,7 @@ The program uses **Pygame** for visualization, making the search process easier 
    ```
 
 ## 📷 Example (Visualization)
-*(Insert a screenshot or GIF of your program running here for better presentation!)*
+<img width="641" height="677" alt="image" src="https://github.com/user-attachments/assets/fd321a52-bd33-4aff-9a55-e114bfd3b6a1" />
 
 ## 🎯 Purpose
 This project was developed as part of an **Artificial Intelligence exercise** to compare the performance of **uninformed** (DFS, BFS) and **informed** (GBFS, A*) search algorithms.  
