@@ -24,7 +24,7 @@ The program uses **Pygame** for visualization, making the search process easier 
 ## 🚀 How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/tree-search-visualization.git
+   git clone https://github.com/phongvunz1406/TreeBasedSearch.git
    cd tree-search-visualization
    ```
 2. Install dependencies:
