@@ -19,7 +19,8 @@ The program uses **Pygame** for visualization, making the search process easier 
 - Modular code structure:
   - `map.py` → grid/map handling
   - `search.py` → search algorithms (DFS, BFS, GBFS, A*)
-  - `main.py` → visualization with Pygame
+  - `gui.py` → visualization with Pygame
+  - `main.py` → main
 
 ## 🚀 How to Run
 1. Clone this repository:
